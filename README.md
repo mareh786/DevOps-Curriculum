@@ -15,7 +15,7 @@ Practical DevOps curriculum – from foundations to production pipelines
 A self-paced, hands-on DevOps learning path designed for 2026 realities:  
 - GitHub Actions first, Jenkins optional  
 - GitOps (ArgoCD focus)  
-- Kubernetes + Terraform on cloud (AWS free tier friendly)  
+- Kubernetes + Terraform on cloud (AWS/GCP free tier friendly)  
 - Real observability & security from early stages  
 
 **Target audience**: Beginners → intermediate (know basic Linux + Git)  
