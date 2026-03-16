@@ -65,9 +65,3 @@ This is the expanded view of the curriculum from the main README. Each module li
    - Alternatives to single capstone: 3–5 themed projects or progressive app milestones  
    → See: [topics/08-devsecops-hands-on.md](./topics/08-devsecops-hands-on.md)
 
-### Next Steps for This Repo
-- Fill one `/topics/` file per week  
-- Add code snippets, Mermaid diagrams, troubleshooting tips  
-- Later: `/projects/` folder for hands-on examples
-
-Questions or suggestions? Open an issue!
