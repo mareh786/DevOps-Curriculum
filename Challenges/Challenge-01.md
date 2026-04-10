@@ -68,6 +68,7 @@
      sudo chmod 644 /var/www/html/index.html
      ```
    - Reload NGINX: `sudo systemctl reload nginx`
+   - ## Add http to the url to test
 
    Option B – **Bonus: Basic Node.js App (if comfortable with JS/Node)**
    - On VM: Install Node.js (use nodesource for latest LTS):
