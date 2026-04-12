@@ -35,15 +35,17 @@ This challenge emphasizes real-world DevOps Linux skills:
 🔐 Part 1: Initial Server Setup & Hardening
 
 1. Update and Upgrade System
-
+```bash
 sudo apt update && sudo apt upgrade -y
-
+```
 ---
 
 2. Create a New User with Sudo Privileges
 
+```bash
 sudo adduser devopsuser
 sudo usermod -aG sudo devopsuser
+```
 
 ---
 
@@ -51,43 +53,56 @@ sudo usermod -aG sudo devopsuser
 
 Edit SSH config:
 
+```bash
 sudo nano /etc/ssh/sshd_config
+```
 
 Update the following lines:
 
+```bash
 PermitRootLogin no
 PasswordAuthentication no
+```
 
 Restart SSH:
 
+```bash
 sudo systemctl restart ssh
 
+```
 ---
 
 4. Setup SSH Key-Based Authentication
 
 Generate SSH key (locally if not already):
 
+```bash
 ssh-keygen -t ed25519
+```
 
 Copy key to server:
 
+```bash
 ssh-copy-id devopsuser@YOUR-VM-IP
+```
 
 ---
 
 5. Configure UFW Firewall
 
+```bash
 sudo ufw allow OpenSSH
 sudo ufw allow 80/tcp
 sudo ufw --force enable
 sudo ufw status
-
+```
 ---
 
 6. Install Essential DevOps Tools
 
+```bash
 sudo apt install curl vim htop fail2ban -y
+```
 
 ---
 
