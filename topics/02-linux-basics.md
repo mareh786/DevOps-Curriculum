@@ -166,4 +166,4 @@ du -sh /path            # Directory usage
 lsblk                   # Block devices (disks)
 fdisk -l                # Partition table (use with caution)
 ```
-## ** Manual documents  ----
+**Super User Activity**
